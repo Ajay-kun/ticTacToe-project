@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #011627;
+   
+  }
+  
+  .game {
+    text-align: center;
+    transition: all 0.5s;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    transition: all 0.5s;
+    
+  }
+  .tac
+  {
+    color: #04e496;
+    filter: drop-shadow(0 0 0.5rem rgba(118, 246, 246, 0.096));
+    transition: all 0.5s;
+  }
+  
+  .status {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #98f1e8;
+    transition: all 0.5s;
+  }
+  .player
+  {
+    color: rgb(208, 255, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s;
+  }
+
+  .win
+  {
+    color: rgb(238, 255, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    filter: drop-shadow(0 0 0.5rem rgba(179, 136, 9, 0.5));
+  }
+  .next{
+    color: red;
+    transition: all 0.5s;
+  }
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: 1px solid #86f7d1;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  
+  .square:hover {
+    background-color: rgba(91, 244, 183, 0.233);
+    filter: drop-shadow(0 0 0.5rem rgba(91, 244, 183, 0.5));
+    transition: all 0.5s;
+  }
+  .vari
+  {
+    color: #06ef77;
+    filter: drop-shadow(0 0 0.5rem rgba(91, 244, 183, 0.4));
+    transition: all 0.5s;
+  }
+  
+  .restart {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid rgb(91, 244, 183);
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  
+  .restart:hover {
+    background-color: rgba(91, 244, 183, 0.226);
+    filter: drop-shadow(0 0 0.5rem rgba(91, 244, 183, 0.5));
+    transition: all 0.5s;
+  }
+  
